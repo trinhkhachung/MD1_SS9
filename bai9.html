@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 9</title>
+</head>
+<body>
+    <script>
+        let math = +prompt('Điểm môn toán')
+            console.log('Điểm môn toán là', math);
+            let sinh = +prompt('Điểm môn sinh')
+            console.log('ĐIểm môn sinh là', sinh);
+            let ly = +prompt('Điểm môn lý là')
+            console.log('Điểm môn lý là', ly)
+            let van = +prompt('Điểm môn văn')
+            console.log('Điểm môn văn là ', van);
+            let tong = math + sinh + ly + van
+            console.log('Điểm tổng', tong)
+            // document.write('Điểm tổng là:', tong)
+            // document.write('<br>')
+            let tb = tong / 4
+            console.log('Điểm trung bình', tb);
+            // document.write('Điểm trung bình là:', tb) 
+       if (tb >= 8 && tb <= 10) {
+            alert("G");
+        } else if (tb >= 6.5 && tb <= 7.9) {
+            alert("K");
+        } else if (tb >= 5 && tb <= 6.4) {
+            alert("TB");
+        } else {
+            alert("YSL");
+        }
+    </script>
+</body>
+</html>

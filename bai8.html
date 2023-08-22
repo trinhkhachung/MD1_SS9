@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 8</title>
+</head>
+<body>
+    <script>
+        let height = +prompt("chieu cao");
+        let weight = +prompt("can nang");
+        let bmi = weight / (height ** 2);
+    if (bmi < 18.5) {
+        alert("thap gay");
+    } else if (bmi >= 18.5 && bmi <= 24.9) {
+        alert("đẹp zai");
+    } else if (bmi >= 25) {
+        alert("Thừa cân");
+    } else if (bmi <= 29.9) {
+        alert("béo bèo");
+    } else if (bmi <= 34.9) {
+        alert("Béo cấp 1");
+    } else if (bmi <= 39.9) {
+        alert("Béo cấp 2");
+    } else if (bmi >= 40) {
+        alert("béo cấp 3");
+    } else {
+        alert("Béo như hưng");
+    }
+    </script>
+</body>
+</html>
